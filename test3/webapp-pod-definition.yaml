@@ -23,6 +23,13 @@ spec:
       containers:
       - name: simple-webapp-mysql
         image: kodekloud/simple-webapp-mysql
+        resources:
+          limits:
+            memory: "500Mi"
+            cpu: 500m
+          requests:
+            memory: "500Mi"
+            cpu: 500m
         ports:
         - containerPort: 8080
         volumeMounts:
