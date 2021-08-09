@@ -13,9 +13,10 @@ spec:
         name: mysql
         cost-center: mcm
         cost-center-code: mcm-101
-        department: Reliance Industries
+        department: RelianceIndustries
         project: WK_Project1
-        app: AthenaApp
+        application: AthenaApp
+        app: mysql
         env: Dev
         created_by: Developer
     spec:
