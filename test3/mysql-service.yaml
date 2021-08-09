@@ -16,5 +16,5 @@ spec:
     selector:
         name: mysql
     ports:
-        - port: 3306
+      - port: 3306
         targetPort: 3306
