@@ -1,0 +1,21 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: webapp-service
+  labels:
+    app: webapp-service
+    name: simple-webapp-mysql
+    cost-center: mcm
+    cost-center-code: mcm-101
+    department: RelianceIndustries
+    project: WK_Project1
+    env: Dev
+    created_by: Developer
+    application: AthenaApp
+spec:
+  selector:
+    name: simple-webapp-mysql
+  type: NodePort
+  ports:
+  - port: 8080
+    targetPort: 8080
