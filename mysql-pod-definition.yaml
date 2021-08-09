@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: mysql
+    labels:
+        name: mysql
+        cost-center: mcm
+        cost-center-code: mcm-101
+        department: Reliance Industries
+        project: WK_Project1
+        app: AthenaApp
+        env: Dev
+        created_by: Developer
+spec:
+    containers:
+        - name: mysql
+        image: mysql
+    ports:
+    - containerPort: 3306
+    env:
+      - name: MYSQL_ROOT_PASSWORD
+        value: paswrd
