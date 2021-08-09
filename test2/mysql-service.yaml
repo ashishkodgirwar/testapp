@@ -1,0 +1,19 @@
+kind: Service
+apiVersion: v1
+metadata:
+    name: mysql
+    labels:
+        name: mysql
+        cost-center: mcm
+        cost-center-code: mcm-101
+        department: Reliance Industries
+        project: WK_Project1
+        app: AthenaApp
+        env: Dev
+        created_by: Developer
+spec:
+    selector:
+        name: mysql
+    ports:
+        - port: 3306
+        targetPort: 3306
