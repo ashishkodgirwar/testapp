@@ -9,9 +9,9 @@ metadata:
     cost-center-code: mcm-101
     department: RelianceIndustries
     project: WK_Project1
-    env: Dev
+    env: Prod
     created_by: Developer
-    application: AthenaApp
+    application: Labelapp
 spec:
   selector:
     name: simple-webapp-mysql

@@ -15,9 +15,9 @@ spec:
         cost-center-code: mcm-101
         department: RelianceIndustries
         project: WK_Project1
-        application: AthenaApp
+        application: Labelapp
         app: simple-webapp-mysql
-        env: Dev
+        env: Prod
         created_by: Developer
     spec:
       containers:
