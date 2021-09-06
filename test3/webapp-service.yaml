@@ -10,6 +10,7 @@ metadata:
     department: RelianceIndustries
     project: WK_Project1
     env: Prod
+    purpose: webapp
     created_by: Developer
     application: Labelapp
 spec:
